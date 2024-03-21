@@ -170,7 +170,8 @@ function Design() {
                 <p className=" mb-0 ff-roboto fw-400 text-16 lh-24 text-white opacity_7 mt_16">
                   Every frame becomes a brushstroke, every motion a
                   choreographed dance, contributing to a symphony of visuals
-                  that captivate players' senses and ignite their imagination.
+                  that captivate players&apos; senses and ignite their
+                  imagination.
                 </p>
                 <div className="hover_ellipse position-absolute hover_ellips_pos2"></div>
               </div>
