@@ -75,7 +75,7 @@ function Update() {
             </div>
             <div className="col-lg-4 col-12 d-flex align-items-center pt-4 pt-lg-0">
               <div className="">
-                <h5 className=" mb-0 ff-roboto fw-400 text-24  lh-2813 text-white">
+                <h5 className=" mb-0 text-capitalize ff-roboto fw-400 text-24  lh-2813 text-white">
                   Stay updated
                 </h5>
                 <div className=" pt-1">

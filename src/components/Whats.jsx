@@ -19,7 +19,7 @@ function whats() {
               those stats were, that goes here.
             </p>
             <div className=" d-flex justify-content-center mt_34">
-              <button className=" mb-0 ff-roboto fw-700 lh-24 lh-288 text-center text-white keep_btn">
+              <button className=" mb-0 ff-roboto fw-700 text-24 lh-24 lh-288 text-center text-white keep_btn">
                 Try to keep up
               </button>
             </div>

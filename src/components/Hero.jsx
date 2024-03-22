@@ -29,17 +29,17 @@ function Hero() {
                 } d-flex align-items-center ff-roboto fw-400 text-16 lh-24 text-white  gap-4   mobile-view `}
               >
                 <li>
-                  <a className=" text-white opacity_7" href="#about">
+                  <a className=" text-white opacity_8" href="#about">
                     About Us
                   </a>
                 </li>
                 <li>
-                  <a className=" text-white opacity_7" href="#team">
+                  <a className=" text-white opacity_8" href="#team">
                     Our Team
                   </a>
                 </li>
                 <li>
-                  <a className=" text-white opacity_7" href="#roadmap">
+                  <a className=" text-white opacity_8" href="#roadmap">
                     Roadmap
                   </a>
                 </li>

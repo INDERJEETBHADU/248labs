@@ -16,22 +16,22 @@ function Footer() {
             />
             <ul className=" mb-0 ff-roboto fw-400 text-16  lh-18  d-flex align-items-center  mt_18 gap-4">
               <li>
-                <a className=" text-white opacity_7" href="#home">
+                <a className=" text-white opacity_8" href="#home">
                   Home
                 </a>
               </li>
               <li>
-                <a className=" text-white opacity_7" href="#roadmap">
+                <a className=" text-white opacity_8" href="#roadmap">
                   Roadmap
                 </a>
               </li>
               <li>
-                <a className=" text-white opacity_7" href="#team">
+                <a className=" text-white opacity_8" href="#team">
                   Team
                 </a>
               </li>
               <li>
-                <a className=" text-white opacity_7" href="#about">
+                <a className=" text-white opacity_8" href="#about">
                   About Us
                 </a>
               </li>
@@ -122,7 +122,7 @@ function Footer() {
         </div>
         <div className="footer_line"></div>
         <div className=" py_22_26 d-flex justify-content-center">
-          <p className=" mb-0 ff-roboto fw-400 text-14 lh-16 text-white opacity_6">
+          <p className=" mb-0 ff-roboto text-capitalize fw-400 text-14 lh-16 text-white opacity_6">
             © 2023 248 Labs. All rights reserved
           </p>
         </div>

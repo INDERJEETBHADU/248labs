@@ -58,7 +58,7 @@ function Team() {
             </div>
             {/* 2 */}
             <div className="col-lg-6 d-flex justify-content-center col-12 pt_14 pt-lg-0">
-              <div className="team_card_1 br_30 position-relative overflow-hidden">
+              <div className="team_card_1 br_30 position-relative z-2 overflow-hidden">
                 <div className=" d-flex flex-column flex-sm-row  align-items-center gap-3">
                   <Image
                     className="  br_30 "
@@ -97,7 +97,7 @@ function Team() {
             </div>
             {/* 3 */}
             <div className="col-lg-6 d-flex justify-content-center col-12 pt_14">
-              <div className="team_card_1 br_30 position-relative overflow-hidden">
+              <div className="team_card_1 br_30 position-relative z-2 overflow-hidden">
                 <div className=" d-flex flex-column flex-sm-row  align-items-center gap-3">
                   <Image
                     className="  br_30 "
@@ -136,7 +136,7 @@ function Team() {
             </div>
             {/* 4 */}
             <div className="col-lg-6 d-flex justify-content-center col-12 pt_14">
-              <div className="team_card_1 br_30 position-relative overflow-hidden">
+              <div className="team_card_1 br_30 position-relative z-2 overflow-hidden">
                 <div className=" d-flex flex-column flex-sm-row  align-items-center gap-3">
                   <Image
                     className="  br_30 "
@@ -172,7 +172,7 @@ function Team() {
             </div>
             {/* 5 */}
             <div className="col-lg-6 d-flex justify-content-center col-12 pt_14">
-              <div className="team_card_1 br_30 position-relative overflow-hidden">
+              <div className="team_card_1 br_30 position-relative z-2 overflow-hidden">
                 <div className=" d-flex flex-column flex-sm-row  align-items-center gap-3">
                   <Image
                     className="  br_30 "
@@ -320,6 +320,7 @@ function Team() {
           Our Team
         </h2>
         <div className="team_ellipse_right position-absolute d-none d-xl-block "></div>
+        <div className="team_ellipse_left position-absolute d-none d-xl-block "></div>
       </section>
     </>
   );

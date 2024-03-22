@@ -13,7 +13,7 @@ function Timeline() {
         <div className="container_2">
           <div className=" d-flex justify-content-center pt_44 ">
             <button className=" mb-0 ff-roboto fw-400 text-16 lh-192  team_btn  br_30">
-              <span className=" text_gradient">Road map</span>
+              <span className=" text_gradient ">ROAD MAP</span>
             </button>
           </div>
           <div className="  mb-5 mb-sm-0 ">
@@ -37,7 +37,7 @@ function Timeline() {
                   <h2 className=" mb-0 ff-roboto fw-400 text-24 lh-2813 text-center text_gradient  ">
                     Oct 2014
                   </h2>
-                  <p className=" text-center ff-roboto mt-1 mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
+                  <p className=" text-center ff-roboto mt-1 mb-0 fw-400 text-24 lh-2813 text-white opacity_7 text-capitalize">
                     Hired our first employee
                   </p>
                 </div>
@@ -50,7 +50,7 @@ function Timeline() {
                   <h2 className=" mb-0 ff-roboto fw-400 text-24 lh-2813 text-center text_gradient ">
                     Nov 2014
                   </h2>
-                  <p className=" text-center  mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
+                  <p className=" text-center text-capitalize  mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
                     Launched Bitcoin wallet
                   </p>
                 </div>
@@ -63,7 +63,7 @@ function Timeline() {
                   <h2 className=" mb-0 ff-roboto fw-400 text-24 lh-2813 text-center text_gradient ">
                     Oct 2015
                   </h2>
-                  <p className=" text-center  mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
+                  <p className=" text-center  text-capitalize mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
                     1st prize by Bit angels at Coin Agenda,{" "}
                     <span className=" d-block">Las Vegas</span>
                   </p>
@@ -78,7 +78,7 @@ function Timeline() {
                     Jan 2020
                   </h2>
                   <div className=" d-flex align-items-center gap-3  mt-1  flex-wrap justify-content-center">
-                    <p className=" text-center ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
+                    <p className=" text-center ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7 text-capitalize">
                       launch On
                     </p>
                     <div className=" d-flex align-items-center gap-3">
@@ -91,14 +91,14 @@ function Timeline() {
                       />
                       <Image
                         className="    "
-                        src="/images/aus.svg"
+                        src="/images/america.svg"
                         width={21.79}
                         height={21.79}
                         alt="Picture of the author"
                       />
                       <Image
                         className="    "
-                        src="/images/america.svg"
+                        src="/images/aus.svg"
                         width={21.79}
                         height={21.79}
                         alt="Picture of the author"
@@ -116,7 +116,7 @@ function Timeline() {
                   <h2 className=" mb-0 ff-roboto fw-400 text-24 lh-2813 text-center text_gradient ">
                     Jan 2022
                   </h2>
-                  <p className=" text-center  mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
+                  <p className=" text-center text-capitalize  mt-1 ff-roboto mb-0 fw-400 text-24 lh-2813 text-white opacity_7">
                     Trusted by 10 Millions+ Users
                   </p>
                   <div className=" d-flex  justify-content-center mt-3">
