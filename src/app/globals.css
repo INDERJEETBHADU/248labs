@@ -483,7 +483,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 810px;
+  min-height: 655px;
 }
 
 /* ++++gap---margin--padding---here */
@@ -598,13 +598,14 @@ ul {
 .hero_btn {
   padding: 12px 32px;
   border-radius: 261px;
-  border: 1px solid transparent;
+  border: none;
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%) padding-box;
   transition: 300ms linear;
 }
 
 .hero_btn:hover {
-  background: linear-gradient(122.49deg, #9B1357 8.77%, #331254 98.41%) padding-box;
+  /* background: linear-gradient(122.49deg, #9B1357 8.77%, #331254 98.41%) padding-box; */
+  box-shadow: 0 0 20px #FBB03B;
 
 }
 
@@ -638,7 +639,14 @@ ul {
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   border: 1px solid transparent;
   border-radius: 261px;
+  transition: 300ms linear;
 }
+
+.ply_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
+}
+
+
 
 .br_30 {
   border-radius: 30px;
@@ -667,6 +675,11 @@ ul {
   border-radius: 261px;
   border: 1px solid transparent;
   border-image-source: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  transition: 300ms linear;
+}
+
+.mail_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
 }
 
 .move_btn {
@@ -674,6 +687,11 @@ ul {
   background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
   border-radius: 261px;
   border: 1px solid transparent;
+  transition: 300ms linear;
+}
+
+.move_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
 }
 
 .play_pos {
@@ -708,8 +726,13 @@ ul {
   border-radius: 261px;
   border: 1px solid transparent;
   border-image-source: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  transition: 300ms linear;
 
 
+}
+
+.team_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
 }
 
 .text_pos_team {
@@ -787,7 +810,7 @@ ul {
   width: 385px;
   height: 375px;
   opacity: 75%;
-  filter: blur(200px);
+  filter: blur(250px);
   top: 14%;
   left: -7%;
 }
@@ -818,7 +841,7 @@ ul {
   opacity: 75%;
   left: -40%;
   top: 4%;
-  filter: blur(200px);
+  filter: blur(240px);
 }
 
 .gameson_opc {
@@ -852,6 +875,12 @@ ul {
   border: 1px solid transparent;
 
   padding: 16px 41px;
+  transition: 300ms linear;
+}
+
+.keep_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
+
 }
 
 /* update---section--csss */
@@ -947,6 +976,12 @@ input:focus {
   padding: 16px 32px;
   border-radius: 231px;
   border: 1px solid transparent;
+  transition: 300ms linear;
+}
+
+.subs_btn:hover {
+  box-shadow: 0 0 20px #FBB03B;
+
 }
 
 /* .fotter_section_css_here */
@@ -979,7 +1014,7 @@ input:focus {
   width: 358px;
   height: 358px;
   opacity: 75%;
-  filter: blur(200px);
+  filter: blur(240px);
   top: 12%;
   left: -10%;
 }
@@ -1112,6 +1147,11 @@ input:focus {
 }
 
 @media (min-width:576px) {
+  .hero_bg_img {
+    /* background-size: 100% 100%; */
+    min-height: 810px;
+  }
+
   .kite_pos {
     left: -3.5%;
     z-index: 2;
@@ -1392,7 +1432,7 @@ input:focus {
   }
 
   .mt_49 {
-    margin-top: 149px;
+    margin-top: 169px;
   }
 
   .team_card_1 {

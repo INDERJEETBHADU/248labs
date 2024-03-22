@@ -6,7 +6,7 @@ function Inhabit() {
     <>
       <section className=" bg-black  mt_neg_1 overflow-hidden">
         <div className="container_2">
-          <div className=" pt_48 pb-5">
+          <div className=" pt_48 pb-0 pb-sm-5">
             <h2 className=" mb-0 ff-roboto  fw-700 text-52  lh-62  text-center  text-white  ">
               A rich, inhabited, and licensable world.
             </h2>
