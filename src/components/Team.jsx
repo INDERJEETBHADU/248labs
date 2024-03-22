@@ -4,7 +4,10 @@ import Image from "next/image";
 function Team() {
   return (
     <>
-      <section className=" bg-black mt_neg_1 position-relative   " id="team">
+      <section
+        className=" bg-black mt_neg_1 position-relative  overflow-hidden  "
+        id="team"
+      >
         <div className="container_2 pt_48 pb-5">
           <div className=" d-flex justify-content-center ">
             <button className=" mb-0 ff-roboto fw-400 text-16 lh-192  team_btn  br_30">

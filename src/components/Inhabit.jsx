@@ -4,7 +4,7 @@ import Image from "next/image";
 function Inhabit() {
   return (
     <>
-      <section className=" bg-black  mt_neg_1">
+      <section className=" bg-black  mt_neg_1 overflow-hidden">
         <div className="container_2">
           <div className=" pt_48 pb-5">
             <h2 className=" mb-0 ff-roboto  fw-700 text-52  lh-62  text-center  text-white  ">
@@ -12,7 +12,7 @@ function Inhabit() {
             </h2>
             <div className=" position-relative">
               <Image
-                className=" cursor_pointer position-relative z-1   br_30 mt_40 w-100"
+                className=" cursor_pointer position-relative z-1  inhabit_img_1  br_30 mt_40 w-100"
                 src="/images/inhabit_large_img.png"
                 width={1140}
                 height={458}

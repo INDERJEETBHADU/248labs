@@ -16,22 +16,22 @@ function Footer() {
             />
             <ul className=" mb-0 ff-roboto fw-400 text-16  lh-18  d-flex align-items-center  mt_18 gap-4">
               <li>
-                <a className=" text-white" href="#home">
+                <a className=" text-white opacity_7" href="#home">
                   Home
                 </a>
               </li>
               <li>
-                <a className=" text-white" href="#roadmap">
+                <a className=" text-white opacity_7" href="#roadmap">
                   Roadmap
                 </a>
               </li>
               <li>
-                <a className=" text-white" href="#team">
+                <a className=" text-white opacity_7" href="#team">
                   Team
                 </a>
               </li>
               <li>
-                <a className=" text-white" href="#about">
+                <a className=" text-white opacity_7" href="#about">
                   About Us
                 </a>
               </li>
@@ -40,7 +40,7 @@ function Footer() {
               <a
                 href="https://twitter.com/X?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 target="_blank"
-                className="social_media_box d-flex align-items-center justify-content-center"
+                className="social_media_box d-flex align-items-center justify-content-center "
               >
                 <svg
                   width="22"

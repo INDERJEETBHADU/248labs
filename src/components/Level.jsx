@@ -21,7 +21,7 @@ function Level() {
         <div className="container_2 ">
           <div className=" position-relative">
             <Image
-              className=" w-100 position-relative z-1 br_30 mt_48"
+              className=" w-100 position-relative xavier_img_cover z-1 br_30 mt_48"
               src="/images/xavier_big_img.png"
               width={1140}
               height={422.27}
