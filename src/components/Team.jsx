@@ -8,10 +8,10 @@ function Team() {
         className=" bg-black mt_neg_1 position-relative  overflow-hidden  "
         id="team"
       >
-        <div className="container_2 pt_48 pb-5">
+        <div className="container_2 pt_48  pb_52">
           <div className=" d-flex justify-content-center ">
             <button className=" mb-0 ff-roboto fw-400 text-16 lh-192  team_btn  br_30">
-              <span className=" text_gradient">Our Team</span>
+              <span className=" text_gradient">OUR TEAM</span>
             </button>
           </div>
           <h2 className=" mb-0 mt-3 ff-roboto fw-700  text-52 lh-62 text-center text-white">
@@ -32,7 +32,7 @@ function Team() {
                   />
                   <div className="">
                     <div className="  d-flex align-items-center gap-2">
-                      <h6 className=" mb-0 ff-roboto fw-600 text-20 lh-24 text-white">
+                      <h6 className=" mb-0 ff-roboto fw-600 text-20 lh-24 text-white text-nowrap">
                         James Vuong
                       </h6>
                       <p className=" mb-0 ff-roboto fw-400 text-16 lh-192 text_gradient">
@@ -255,7 +255,7 @@ function Team() {
                     alt="Picture of the author"
                   />
                   <div className="">
-                    <div className="  d-flex align-items-center gap-2  text-nowrap">
+                    <div className="  d-flex align-items-center flex-lg-column flex-xl-row gap-2 gap-lg-0 gap-xl-2  text-nowrap">
                       <h6 className=" mb-0 ff-roboto fw-600 text-20 lh-24 text-white">
                         Jordan Stratford
                       </h6>

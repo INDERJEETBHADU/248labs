@@ -31,7 +31,7 @@ function Level() {
           </div>
           <div className="row pt-4">
             <div className="col-md-4 col-12">
-              <div className=" d-flex  flex-column  gap-md-4 gap-3   align-items-start">
+              <div className=" d-flex  flex-column flex-sm-row flex-md-column  gap-md-4 gap-3   align-items-start">
                 <button className=" mb-0 ff-roboto fw-700  text-18 lh-27 text-white mail_btn">
                   name@domain.com
                 </button>

@@ -9,7 +9,7 @@ function Hero() {
   return (
     <>
       <header
-        className=" hero_bg_img d-flex flex-column "
+        className=" hero_bg_img d-flex flex-column vh-100 "
         id="home"
       >
         <div className="container_2 w-100">
@@ -21,7 +21,6 @@ function Hero() {
               height={42.3}
               alt="Picture of the author"
             />
-            <h3></h3>
             <div className="gap_40 d-flex  align-items-center ">
               <ul
                 className={` ${
